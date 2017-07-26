@@ -3,11 +3,11 @@
 <%@ page session="false"%>
 <html>
 <head>
-<jsp:include page="/views/theme.jsp"></jsp:include>
+<jsp:include page="/WEB-INF/views/theme.jsp"></jsp:include>
 <title>Taskify :: Home</title>
 </head>
 <body>
-<jsp:include page="/views/navbar.jsp"></jsp:include>
+<jsp:include page="/WEB-INF/views/navbar.jsp"></jsp:include>
 	<%--<div class="container">--%>
 		<h1>欢迎来到XXX餐厅!</h1>
 		<hr />

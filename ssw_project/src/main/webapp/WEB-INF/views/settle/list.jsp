@@ -27,7 +27,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-
+<jsp:include page="/WEB-INF/views/navbar.jsp"></jsp:include>
 <div class="col-lg-6 col-md-6">
     <h3>点菜信息</h3>
     <div class="row">

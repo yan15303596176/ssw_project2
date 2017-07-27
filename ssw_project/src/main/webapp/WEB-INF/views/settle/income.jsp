@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <%--<a class="btn btn-primary btn-lg btn-block" href="javascript:deleteFoodorder('${foodorders[0].tableId}');" >结账</a>--%>
-                <button class="btn btn-primary btn-lg btn-block" type="submit">11111</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">结账</button>
                 <%--<input type="hidden" name="del" value="${foodorders[0].tableId}">--%>
             </form:form>
 

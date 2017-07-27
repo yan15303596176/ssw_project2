@@ -23,12 +23,12 @@
 					<c:when
 						test="${fn:endsWith(pageContext.request.requestURI, 'views/home.jsp')}">
 						<li class="active"><a
-							href="${pageContext.request.contextPath}/">主页<span
+							href="${pageContext.request.contextPath}/home">主页<span
 								class="sr-only">(current)</span>
 						</a></li>
 					</c:when>
 					<c:otherwise>
-						<li><a href="${pageContext.request.contextPath}/">主页</a></li>
+						<li><a href="${pageContext.request.contextPath}/home">主页</a></li>
 					</c:otherwise>
 				</c:choose>
 

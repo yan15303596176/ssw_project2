@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oracle.spring.mapper.foodorderMapper">
+
+    <resultMap id="foodorderResult" type="Foodorder">
+        <result property="fname" column="fname"/>
+        <result property="fprice" column="fprice"/>
+        <result property="fnum" column="fnum"/>
+        <result property="tableId" column="tableid"/>
+    </resultMap>
+
+    <select id="findById" parameterType="int" resultMap="foodorderResult">
+        SELECT * FROM foodorder where tableId = #{tableId}
+    </select>
+
+    <select id="findByIds" parameterType="int" resultMap="foodorderResult">
+        SELECT * FROM foodorder where tableId = #{tableId}
+    </select>
+
+    <select id="findAll" resultMap="foodorderResult">
+        SELECT * FROM foodorder
+    </select>
+
+    <delete id="deleteFoodorder" parameterType="int">
+        DELETE FROM foodorder WHERE tableId = #{tableId}
+    </delete>
+</mapper>

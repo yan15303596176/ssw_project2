@@ -12,6 +12,6 @@
 		<h1>欢迎来到XXX餐厅!</h1>
 		<hr />
 	<%--</div>--%>
- <img src="imgs/homePage.png">
+ <img src="${pageContext.request.contextPath}/static/imgs/homePage.png">
 </body>
 </html>

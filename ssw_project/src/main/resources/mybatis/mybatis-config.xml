@@ -19,7 +19,7 @@
             <dataSource type="UNPOOLED"></dataSource>
         </environment>
     </environments>
-    <mappers>
-      <mapper class="com.oracle.spring.mapper.MenuMapper"/>
-    </mappers>
+    <!--<mappers>-->
+      <!--<mapper class="com.oracle.spring.mapper"/>-->
+    <!--</mappers>-->
 </configuration>

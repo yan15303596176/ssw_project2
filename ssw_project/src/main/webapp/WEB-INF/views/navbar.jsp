@@ -88,12 +88,12 @@
 					<c:when
 							test="${fn:endsWith(pageContext.request.requestURI, 'manager/count.jsp')}">
 						<li class="active"><a
-								href="${pageContext.request.contextPath}/tasks">结账<span
+								href="${pageContext.request.contextPath}/settles">结账<span
 								class="sr-only">(current)</span>
 						</a></li>
 					</c:when>
 					<c:otherwise>
-						<li><a href="${pageContext.request.contextPath}/tasks">结账</a></li>
+						<li><a href="${pageContext.request.contextPath}/settles">结账</a></li>
 					</c:otherwise>
 				</c:choose>
 

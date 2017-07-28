@@ -25,4 +25,8 @@
     <delete id="deleteFoodorder" parameterType="int">
         DELETE FROM foodorder WHERE tableId = #{tableId}
     </delete>
+
+    <!--<insert id="insertIncome" parameterType="Income">-->
+        <!--INSERT INTO income VALUES (#{tableId},#{income},#{date})-->
+    <!--</insert>-->
 </mapper>

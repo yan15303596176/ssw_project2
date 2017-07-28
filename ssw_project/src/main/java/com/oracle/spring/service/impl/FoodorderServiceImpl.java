@@ -1,6 +1,7 @@
 package com.oracle.spring.service.impl;
 
 import com.oracle.spring.domain.Foodorder;
+import com.oracle.spring.domain.Income;
 import com.oracle.spring.mapper.foodorderMapper;
 import com.oracle.spring.service.foodorderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,4 +36,9 @@ public class FoodorderServiceImpl implements foodorderService {
     public void deleteFoodorder(int tableId) {
         foodorderMapper.deleteFoodorder(tableId);
     }
+
+//    @Override
+//    public void insertIncome(Income income) {
+//        foodorderMapper.insertIncome(income);
+//    }
 }

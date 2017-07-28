@@ -92,6 +92,8 @@
         var receipts =  document.getElementById("receipts").value;
         var accounts = receipts/1 - num/1;
         $("#accounts").val(accounts);
+
+
     })
 </script>
 <%--<script type="text/javascript">--%>
